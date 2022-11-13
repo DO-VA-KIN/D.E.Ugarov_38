@@ -1,0 +1,3 @@
+﻿  lb5.cpp
+c:\users\pressf\documents\visual studio 2017\projects\university\lb5\lb5\lb5.cpp(30): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  lb5.vcxproj -> C:\Users\pressF\Documents\Visual Studio 2017\Projects\university\lb5\Debug\lb5.exe

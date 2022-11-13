@@ -1,0 +1,18 @@
+﻿  lb5_1.cpp
+  Machine.cpp
+E:\mainProgs\university\новые_лабы_c++\nM\lb5_1\lb5_1\Machine.cpp(19,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+E:\mainProgs\university\новые_лабы_c++\nM\lb5_1\lb5_1\Machine.cpp(30,18): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+E:\mainProgs\university\новые_лабы_c++\nM\lb5_1\lb5_1\Machine.cpp(40,18): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+E:\mainProgs\university\новые_лабы_c++\nM\lb5_1\lb5_1\Machine.cpp(50,18): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+E:\mainProgs\university\новые_лабы_c++\nM\lb5_1\lb5_1\Machine.cpp(71,7): warning C4804: >: небезопасное использование типа "bool" в операции
+E:\mainProgs\university\новые_лабы_c++\nM\lb5_1\lb5_1\Machine.cpp(73,21): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  SparePart.cpp
+E:\mainProgs\university\новые_лабы_c++\nM\lb5_1\lb5_1\SparePart.cpp(5,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+E:\mainProgs\university\новые_лабы_c++\nM\lb5_1\lb5_1\SparePart.cpp(16,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+E:\mainProgs\university\новые_лабы_c++\nM\lb5_1\lb5_1\SparePart.cpp(46,32): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+E:\mainProgs\university\новые_лабы_c++\nM\lb5_1\lb5_1\SparePart.cpp(66,33): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+E:\mainProgs\university\новые_лабы_c++\nM\lb5_1\lb5_1\SparePart.cpp(86,33): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+E:\mainProgs\university\новые_лабы_c++\nM\lb5_1\lb5_1\SparePart.cpp(106,33): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  Создание кода...
+  LINK : не найден или не выполнена сборка E:\mainProgs\university\новые_лабы_c++\nM\lb5_1\x64\Debug\lb5_1.exe при последней инкрементной компоновке; выполняется полная компоновка
+  lb5_1.vcxproj -> E:\mainProgs\university\новые_лабы_c++\nM\lb5_1\x64\Debug\lb5_1.exe
