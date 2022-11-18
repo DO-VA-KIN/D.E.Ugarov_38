@@ -1,0 +1,9 @@
+﻿  lb7_2.cpp
+c:\users\pressf\documents\visual studio 2017\projects\university\nm\lb7_2\lb7_2\visitor.h(48): warning C4091: static : пропускается слева от "ChildVisitor", когда ни одна переменная не объявлена
+c:\users\pressf\documents\visual studio 2017\projects\university\nm\lb7_2\lb7_2\visitor.h(39): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\pressf\documents\visual studio 2017\projects\university\nm\lb7_2\lb7_2\visitor.h(67): warning C4091: static : пропускается слева от "AdultVisitor", когда ни одна переменная не объявлена
+c:\users\pressf\documents\visual studio 2017\projects\university\nm\lb7_2\lb7_2\visitor.h(58): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\pressf\documents\visual studio 2017\projects\university\nm\lb7_2\lb7_2\visitor.h(86): warning C4091: static : пропускается слева от "OldVisitor", когда ни одна переменная не объявлена
+c:\users\pressf\documents\visual studio 2017\projects\university\nm\lb7_2\lb7_2\visitor.h(77): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\pressf\documents\visual studio 2017\projects\university\nm\lb7_2\lb7_2\lb7_2.cpp(40): warning C4018: <: несоответствие типов со знаком и без знака
+  lb7_2.vcxproj -> C:\Users\pressF\Documents\Visual Studio 2017\Projects\university\nM\lb7_2\Debug\lb7_2.exe

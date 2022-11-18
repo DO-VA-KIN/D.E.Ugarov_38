@@ -15,7 +15,7 @@ class Target
 {
 protected:
 	virtual double HitChance() = 0;//шанс попадания
-	virtual void HitAdd() = 0;//регистрация попадания
+	virtual void HitAdd(int shhots) = 0;//регистрация попадания
 	virtual bool Availability() = 0;//доступность для стрельбы
 };
 
@@ -24,7 +24,7 @@ class TargetCircle:public Target
 {
 public:
 	double HitChance();//шанс попадания
-	void HitAdd();//регистрация попадания
+	void HitAdd(int shoots);//регистрация попадания
 	bool Availability();//доступность для стрельбы
 	int Endurance = 5;//прочность
 private:
@@ -38,7 +38,7 @@ class TargetSquare:public Target
 {
 public:
 	double HitChance();//шанс попадания
-	void HitAdd();//регистрация попадания
+	void HitAdd(int shoots);//регистрация попадания
 	bool Availability();//доступность для стрельбы
 	int Endurance = 7;//прочность
 private:

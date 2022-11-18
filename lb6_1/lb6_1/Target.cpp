@@ -7,9 +7,9 @@ double TargetCircle::HitChance()
 	return chance;
 }
 
-void TargetCircle::HitAdd()
+void TargetCircle::HitAdd(int shoots)
 {
-	Endurance--;
+	Endurance -= shoots;
 }
 
 bool TargetCircle::Availability()
@@ -29,9 +29,9 @@ double TargetSquare::HitChance()
 	return chance;
 }
 
-void TargetSquare::HitAdd()
+void TargetSquare::HitAdd(int shoots)
 {
-	Endurance--;
+	Endurance -= shoots;
 }
 
 bool TargetSquare::Availability()

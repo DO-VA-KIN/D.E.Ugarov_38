@@ -1,7 +1,5 @@
 ﻿  lb6_1.cpp
 B:\Projects\university\новые_лабы_c++\lb6_1\lb6_1\Weapon.h(36): warning C4091: static : пропускается слева от "Weapons::AK47Struct", когда ни одна переменная не объявлена
 B:\Projects\university\новые_лабы_c++\lb6_1\lb6_1\lb6_1.cpp(18,22): warning C4244: аргумент: преобразование "double" в "unsigned int", возможна потеря данных
-B:\Projects\university\новые_лабы_c++\lb6_1\lb6_1\lb6_1.cpp(38,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  Target.cpp
-  Создание кода...
+B:\Projects\university\новые_лабы_c++\lb6_1\lb6_1\lb6_1.cpp(39,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   lb6_1.vcxproj -> B:\Projects\university\новые_лабы_c++\lb6_1\x64\Debug\lb6_1.exe

@@ -35,6 +35,7 @@ int main()
     while (true)
     {
         //очистка
+        flag = true;
         srand(time(NULL));
         int randInt = 10 + rand() % 20;
         tir.TargetCircles = vector<TargetCircle>(randInt);
@@ -42,11 +43,11 @@ int main()
         report = Report();
         report.AllTargets = randInt * 2;
 
-        cout << "\nПроверка стрелковой подготовки:\n'Стрельба в течении минуты'\n"
+        cout << "\nДобро пожаловать!\nСтрельба в течении минуты:\n"
             << "1) Стрелять одиночными\n"
             << "2) Стрелять очередями\n"
-            << "3) Комбинировать(я ведь мастер!)\n"
-            << "5) Не моё это всё... я пацифист..\n";
+            << "3) Стрелять по усмотрению\n"
+            << "5) Выход\n";
         cin >> num;
 
         if (num == 1)
@@ -76,7 +77,7 @@ int main()
                     {
                         if (RandDouble(timer) < tir.TargetCircles[i].HitChance())
                         {
-                            tir.TargetCircles[i].HitAdd();
+                            tir.TargetCircles[i].HitAdd(1);
                             report.HitsCount++;
                         }
                     }
@@ -84,7 +85,7 @@ int main()
                     {
                         if (RandDouble(timer) < tir.TargetSquares[i].HitChance())
                         {
-                            tir.TargetSquares[i].HitAdd();
+                            tir.TargetSquares[i].HitAdd(1);
                             report.HitsCount++;
                         }
                     }
@@ -123,9 +124,9 @@ int main()
 
                     if (flag)//по круглым мишеням
                     {
-                        if (RandDouble(timer) < tir.TargetCircles[i].HitChance())
+                        if (RandDouble(timer) < tir.TargetCircles[i].HitChance()/2)
                         {
-                            tir.TargetCircles[i].HitAdd();
+                            tir.TargetCircles[i].HitAdd(10);
                             report.HitsCount += 10;
                         }
                     }
@@ -133,7 +134,7 @@ int main()
                     {
                         if (RandDouble(timer) < tir.TargetSquares[i].HitChance())
                         {
-                            tir.TargetSquares[i].HitAdd();
+                            tir.TargetSquares[i].HitAdd(10);
                             report.HitsCount += 10;
                         }
                     }
@@ -150,14 +151,15 @@ int main()
         else if (num == 3)
         {
             int mode = 1;
+            int acc = 1;
 
             int i = 0;//текущая мишень
             double timer = 0;//время(60 сек)
             while (timer < 60)
             {
                 if (RandDouble(i) > 0.5)//переключение режима стрельбы
-                    mode = 1;
-                else mode = 10;
+                { mode = 1; acc = 1; }
+                else { mode = 10; acc = 2; }
 
                 if (tir.Weapon.AK47.Magazine > 0)//остались ли патроны
                 {
@@ -178,17 +180,17 @@ int main()
 
                     if (flag)//по круглым мишеням
                     {
-                        if (RandDouble(timer) < tir.TargetCircles[i].HitChance())
+                        if (RandDouble(timer) < tir.TargetCircles[i].HitChance()/acc)
                         {
-                            tir.TargetCircles[i].HitAdd();
+                            tir.TargetCircles[i].HitAdd(mode);
                             report.HitsCount += mode;
                         }
                     }
                     else//по квадратным
                     {
-                        if (RandDouble(timer) < tir.TargetSquares[i].HitChance())
+                        if (RandDouble(timer) < tir.TargetSquares[i].HitChance()/acc)
                         {
-                            tir.TargetSquares[i].HitAdd();
+                            tir.TargetSquares[i].HitAdd(mode);
                             report.HitsCount += mode;
                         }
                     }
@@ -210,7 +212,7 @@ int main()
         cout << "\nВсего выстрелов: " << report.Shoots
             << "\nПопаданий: " << report.HitsCount
             << "\nМеткость: " << report.Accuracy() << "%"
-            << "\nВсего целей: " << report.AllTargets
+            //<< "\nВсего целей: " << report.AllTargets
             << "\nУничтожено целей: " << report.DestroyedTargets
             << "\nОсталось целей: " << report.RemainingTargets() << endl;
     }
