@@ -1,9 +1,22 @@
-﻿  lb7_2.cpp
-c:\users\pressf\documents\visual studio 2017\projects\university\nm\lb7_2\lb7_2\visitor.h(48): warning C4091: static : пропускается слева от "ChildVisitor", когда ни одна переменная не объявлена
-c:\users\pressf\documents\visual studio 2017\projects\university\nm\lb7_2\lb7_2\visitor.h(39): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-c:\users\pressf\documents\visual studio 2017\projects\university\nm\lb7_2\lb7_2\visitor.h(67): warning C4091: static : пропускается слева от "AdultVisitor", когда ни одна переменная не объявлена
-c:\users\pressf\documents\visual studio 2017\projects\university\nm\lb7_2\lb7_2\visitor.h(58): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-c:\users\pressf\documents\visual studio 2017\projects\university\nm\lb7_2\lb7_2\visitor.h(86): warning C4091: static : пропускается слева от "OldVisitor", когда ни одна переменная не объявлена
-c:\users\pressf\documents\visual studio 2017\projects\university\nm\lb7_2\lb7_2\visitor.h(77): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-c:\users\pressf\documents\visual studio 2017\projects\university\nm\lb7_2\lb7_2\lb7_2.cpp(40): warning C4018: <: несоответствие типов со знаком и без знака
-  lb7_2.vcxproj -> C:\Users\pressF\Documents\Visual Studio 2017\Projects\university\nM\lb7_2\Debug\lb7_2.exe
+﻿  pch.cpp
+  Clinic.cpp
+B:\Projects\university\новые_лабы_c++\nm\lb7_2\lb7_2\Visitor.h(48,2): warning C4091: static : пропускается слева от "ChildVisitor", когда ни одна переменная не объявлена
+B:\Projects\university\новые_лабы_c++\nm\lb7_2\lb7_2\Visitor.h(39,20): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\nm\lb7_2\lb7_2\Visitor.h(67,2): warning C4091: static : пропускается слева от "AdultVisitor", когда ни одна переменная не объявлена
+B:\Projects\university\новые_лабы_c++\nm\lb7_2\lb7_2\Visitor.h(58,20): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\nm\lb7_2\lb7_2\Visitor.h(86,2): warning C4091: static : пропускается слева от "OldVisitor", когда ни одна переменная не объявлена
+B:\Projects\university\новые_лабы_c++\nm\lb7_2\lb7_2\Visitor.h(77,20): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\nm\lb7_2\lb7_2\Clinic.cpp(17,34): warning C4244: аргумент: преобразование "double" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\nm\lb7_2\lb7_2\Clinic.cpp(21,34): warning C4244: аргумент: преобразование "double" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\nm\lb7_2\lb7_2\Clinic.cpp(94,20): warning C4244: аргумент: преобразование "double" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\nm\lb7_2\lb7_2\Clinic.cpp(98,20): warning C4244: аргумент: преобразование "double" в "unsigned int", возможна потеря данных
+  lb7_2.cpp
+B:\Projects\university\новые_лабы_c++\nm\lb7_2\lb7_2\Visitor.h(48,2): warning C4091: static : пропускается слева от "ChildVisitor", когда ни одна переменная не объявлена
+B:\Projects\university\новые_лабы_c++\nm\lb7_2\lb7_2\Visitor.h(39,20): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\nm\lb7_2\lb7_2\Visitor.h(67,2): warning C4091: static : пропускается слева от "AdultVisitor", когда ни одна переменная не объявлена
+B:\Projects\university\новые_лабы_c++\nm\lb7_2\lb7_2\Visitor.h(58,20): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\nm\lb7_2\lb7_2\Visitor.h(86,2): warning C4091: static : пропускается слева от "OldVisitor", когда ни одна переменная не объявлена
+B:\Projects\university\новые_лабы_c++\nm\lb7_2\lb7_2\Visitor.h(77,20): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\nm\lb7_2\lb7_2\lb7_2.cpp(40,21): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  lb7_2.vcxproj -> B:\Projects\university\новые_лабы_c++\nm\lb7_2\Debug\lb7_2.exe

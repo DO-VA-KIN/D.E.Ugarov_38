@@ -125,17 +125,12 @@ private:
 		ReceptionStruct Reception = ReceptionStruct();//Посетители по окнам		
 	};
 
-	//ChildVisitorClass ChildVisitor = ChildVisitorClass();
-	//AdultVisitorClass AdultVisitor = AdultVisitorClass();
-	//OldVisitorClass OldVisitor = OldVisitorClass();
-
 	vector<Visitor> LivePriority = vector<Visitor>();
 	vector<Visitor> EnrollmentPriority = vector<Visitor>();
 	vector<Window> Windows = vector<Window>(5);
 
 public:
-	Clinic(int countWindows, int countVisitors);//создание класса (получает кол-во посетителей)
-	//void Initialize();
+	Clinic(int countWindows, int countVisitors);//создание класса (получает кол-во окон и посетителей)
 	void Work(int timeWork, int breakStart, int breakEnd);//работа в течении заданного времени(в минутах), break -интервал перерыва
 	ReportStruct Report = ReportStruct();//структура отчёта
 };
