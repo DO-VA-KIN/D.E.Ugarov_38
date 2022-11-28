@@ -1,0 +1,22 @@
+﻿  Library.cpp
+c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\book.h(46): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\visitor.h(32): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\visitor.h(36): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\visitor.h(39): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\visitor.h(62): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\visitor.h(80): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\visitor.h(97): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(27): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(34): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(53): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(58): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(62): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(75): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(77): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(92): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(99): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(110): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(133): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(151): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(158): warning C4018: <: несоответствие типов со знаком и без знака
+  lb7_4.vcxproj -> C:\Users\pressF\Documents\Visual Studio 2017\Projects\lb7_4\Debug\lb7_4.exe
