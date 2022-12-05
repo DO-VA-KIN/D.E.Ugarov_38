@@ -43,7 +43,7 @@ int main()
 		{
 			srand(time(NULL) + 5 * i);
 			//int num = min + rand() % (max - min + 1);
-			xs[i] = 1 + rand() % 65535;//шанс появления посетителя
+			xs[i] = 1 + rand() % 65535;
 		}
 
 
@@ -77,7 +77,7 @@ int main()
 			cin >> num;
 
 			countDel = 0;
-			count_if(vDel.begin(), vDel.end(), CompareFunc);
+			int c = count_if(vDel.begin(), vDel.end(), CompareFunc);
 			cout << "колиство делителей: " << countDel << endl;
 		}
 		else if (move == 2)

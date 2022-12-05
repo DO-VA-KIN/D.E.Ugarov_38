@@ -1,0 +1,4 @@
+﻿  lb9_4.cpp
+B:\Projects\lb9_4\lb9_4\lb9_4.cpp(58,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\lb9_4\lb9_4\lb9_4.cpp(75,15): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+  lb9_4.vcxproj -> B:\Projects\lb9_4\x64\Debug\lb9_4.exe

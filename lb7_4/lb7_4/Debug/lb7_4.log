@@ -1,22 +1,33 @@
-﻿  Library.cpp
-c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\book.h(46): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\visitor.h(32): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\visitor.h(36): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\visitor.h(39): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\visitor.h(62): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\visitor.h(80): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\visitor.h(97): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(27): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(34): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(53): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(58): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(62): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(75): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(77): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(92): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(99): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(110): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(133): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(151): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\pressf\documents\visual studio 2017\projects\lb7_4\lb7_4\library.cpp(158): warning C4018: <: несоответствие типов со знаком и без знака
-  lb7_4.vcxproj -> C:\Users\pressF\Documents\Visual Studio 2017\Projects\lb7_4\Debug\lb7_4.exe
+﻿  pch.cpp
+  lb7_4.cpp
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Book.h(46,20): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Visitor.h(32,20): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Visitor.h(36,20): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Visitor.h(39,20): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Visitor.h(62,20): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Visitor.h(80,18): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Visitor.h(97,21): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\lb7_4.cpp(33,21): warning C4018: <: несоответствие типов со знаком и без знака
+  Library.cpp
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Book.h(46,20): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Visitor.h(32,20): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Visitor.h(36,20): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Visitor.h(39,20): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Visitor.h(62,20): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Visitor.h(80,18): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Visitor.h(97,21): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Library.cpp(27,21): warning C4018: <: несоответствие типов со знаком и без знака
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Library.cpp(34,20): warning C4018: <: несоответствие типов со знаком и без знака
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Library.cpp(53,20): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Library.cpp(58,24): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Library.cpp(62,23): warning C4018: <: несоответствие типов со знаком и без знака
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Library.cpp(75,45): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Library.cpp(77,27): warning C4018: <: несоответствие типов со знаком и без знака
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Library.cpp(92,21): warning C4018: <: несоответствие типов со знаком и без знака
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Library.cpp(99,24): warning C4018: <: несоответствие типов со знаком и без знака
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Library.cpp(110,25): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Library.cpp(133,25): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Library.cpp(151,20): warning C4018: <: несоответствие типов со знаком и без знака
+B:\Projects\university\новые_лабы_c++\lb7_4\lb7_4\Library.cpp(158,23): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  lb7_4.vcxproj -> B:\Projects\university\новые_лабы_c++\lb7_4\Debug\lb7_4.exe

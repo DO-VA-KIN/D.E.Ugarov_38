@@ -8,7 +8,7 @@ template <typename T>
 class Stack
 {
 private:
-	T nd = 3;
+	//T nd = 3;
 	struct Node
 	{
 		T data;//поле с данными
@@ -20,14 +20,14 @@ public:
 	Stack() : root(nullptr) {}//по умолчанию стек пуст(nullptr - указатель на пустоту)
 	~Stack() { while (!IsEmpty()) Pop(); }
 
-	T* begin() { return &root->data; }
-	T* end()
-	{
-		Node* node = root;
-		while (node->next != nullptr)
-			node = node->next;
-		return &node->next->data;
-	}
+	//T* begin() { return &root->data; }
+	//T* end()
+	//{
+	//	Node* node = root;
+	//	while (node->next != nullptr)
+	//		node = node->next;
+	//	return &node->next->data;
+	//}
 
 
 	//проверка на пустоту
